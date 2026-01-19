@@ -1,0 +1,34 @@
+Create a simple, clean HTML website to showcase my projects. The design should be:
+Style & Layout:
+
+Minimalist and clean with plenty of white space
+Mobile-responsive and works well on all screen sizes
+Simple typography with a clear hierarchy (larger title, medium project names, smaller descriptions)
+Centered content with comfortable reading width (not too wide)
+
+Structure:
+
+"Projects" heading
+List of projects, each containing:
+
+Project name (linked)
+Brief one-line description below it
+
+
+Simple, clean spacing between projects
+
+Design Requirements:
+
+No complex frameworks - just HTML and CSS
+Use a clean, modern sans-serif font (like system fonts or Inter/Segoe UI)
+Subtle hover effects on project links
+Neutral color scheme (dark text on light background)
+Links should be clearly clickable but not overly styled
+
+Format:
+
+Single HTML file with inline CSS
+Each project should be easily clickable
+Professional but approachable aesthetic
+
+Please include placeholder text for 5-6 projects that I can easily replace with my own project names, URLs, and descriptions.
