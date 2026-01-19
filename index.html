@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #1a1a1a;
+        --muted: #5a5a5a;
+        --link: #1a1a1a;
+        --link-hover: #0f5dd8;
+        --card-border: #e9e9e9;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 64px 24px 80px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.25rem;
+        margin: 0 0 24px;
+        letter-spacing: -0.02em;
+      }
+
+      .projects {
+        display: grid;
+        gap: 20px;
+      }
+
+      .project {
+        border: 1px solid var(--card-border);
+        border-radius: 12px;
+        padding: 20px 22px;
+        text-align: left;
+        background: #fff;
+        transition: border-color 0.2s ease, transform 0.2s ease;
+      }
+
+      .project a {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      .project a:hover,
+      .project a:focus {
+        color: var(--link-hover);
+      }
+
+      .project p {
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      .project:hover {
+        border-color: #d7d7d7;
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 600px) {
+        main {
+          padding: 48px 18px 64px;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Projects</h1>
+      <section class="projects">
+        <article class="project">
+          <a href="https://example.com/project-one" target="_blank" rel="noreferrer">
+            Project One
+          </a>
+          <p>Short description of the project goes here in one clean line.</p>
+        </article>
+        <article class="project">
+          <a href="https://example.com/project-two" target="_blank" rel="noreferrer">
+            Project Two
+          </a>
+          <p>Brief summary that highlights what this project is about.</p>
+        </article>
+        <article class="project">
+          <a href="https://example.com/project-three" target="_blank" rel="noreferrer">
+            Project Three
+          </a>
+          <p>One-line description focused on the outcome or use case.</p>
+        </article>
+        <article class="project">
+          <a href="https://example.com/project-four" target="_blank" rel="noreferrer">
+            Project Four
+          </a>
+          <p>Short, clear statement of what this project delivers.</p>
+        </article>
+        <article class="project">
+          <a href="https://example.com/project-five" target="_blank" rel="noreferrer">
+            Project Five
+          </a>
+          <p>Concise description that makes the purpose easy to grasp.</p>
+        </article>
+        <article class="project">
+          <a href="https://example.com/project-six" target="_blank" rel="noreferrer">
+            Project Six
+          </a>
+          <p>Quick line describing the project’s value or audience.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
